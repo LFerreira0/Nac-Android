@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Melhores lojas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/mercado"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/mercado"
+            />
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/buscape"
+            android:id="@+id/buscape"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp" app:srcCompat="@drawable/ebay"
+            android:id="@+id/ebay"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp" app:srcCompat="@drawable/webmotors"
+            android:id="@+id/web"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/magalu"
+            android:id="@+id/magalu"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/netshoes"
+            android:id="@+id/net"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/americanas"
+            android:id="@+id/americanas"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/submarino"
+            android:id="@+id/submarino"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idrelatorio"
+            android:text="Relatorio"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+
+            />
+
+    </LinearLayout>
+</ScrollView>
